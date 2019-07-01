@@ -1,0 +1,13 @@
+Pod::Spec.new do |module|
+module.name        = 'ModuleTestPrj'
+module.version     = '1.0'
+module.summary     = 'summary'
+
+module.description = <<-DESC
+description         
+                     DESC
+ 
+module.homepage    = ''
+module.license     = { :type => 'MIT', :file => 'LICENSE' }
+module.author      = {'作者' => 'ZZ'}
+module.source      = {:git => ''}
